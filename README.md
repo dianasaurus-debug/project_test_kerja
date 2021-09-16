@@ -14,6 +14,7 @@
 3. Lalu generate app key dengan menyalin isi file .env.example ke file .env di dalam folder project, lalu ketikkan perintah <b>php artisan key:generate</b>
 4. Install semua dependency di package.json dengan <b>npm install</b>, tunggu sampai package terinstall semua
 5. Setelah itu, konfigurasikan file .env sesuai pengaturan database anda, nyalakan terlebih dahulu database anda, kemudian migrate semua table di project dengan perintah <b>php artisan migrate</b>
-6. Setelah semua dimigrate, lalu isikan tabel majors (jurusan) dengan data di seeder, dengan perintah <b>php artisan db:seed</b>
-7. Jika sudah selesai semua, hidupkan server dengan perintah <b>php artisan serve</b>
-8. Kemudian <i>Project sudah siap digunakan!</i>, untuk login gunakan akun dengan email : admin@gmail.com dan password : password
+6. Setelah semua dimigrate, lalu isikan beberapa data tabel dengan data di seeder, dengan perintah <b>php artisan db:seed</b>
+7. Jika sudah, hidupkan server dengan perintah <b>php artisan serve</b>
+8. lalu, compile vue dengan <b>npm run watch</b>
+9. Kemudian <i>Project sudah siap digunakan!</i>, untuk login gunakan akun dengan email : admin@gmail.com dan password : password
